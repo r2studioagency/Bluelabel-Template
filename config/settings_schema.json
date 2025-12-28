@@ -73,7 +73,7 @@
         "id": "tag_letter_spacing",
         "min": -0.1,
         "max": 0.5,
-        "step": 0.01,
+        "step": 0.1,
         "unit": "em",
         "label": "Letter Spacing",
         "default": 0
@@ -113,7 +113,7 @@
         "id": "h1_letter_spacing",
         "min": -0.1,
         "max": 0.5,
-        "step": 0.01,
+        "step": 0.1,
         "unit": "em",
         "label": "Letter Spacing",
         "default": 0
@@ -153,7 +153,7 @@
         "id": "h2_letter_spacing",
         "min": -0.1,
         "max": 0.5,
-        "step": 0.01,
+        "step": 0.1,
         "unit": "em",
         "label": "Letter Spacing",
         "default": 0
@@ -176,7 +176,7 @@
         "step": 0.1,
         "unit": "rem",
         "label": "Font Size",
-        "default": 1.75
+        "default": 1.8
       },
       {
         "type": "range",
@@ -193,7 +193,7 @@
         "id": "h3_letter_spacing",
         "min": -0.1,
         "max": 0.5,
-        "step": 0.01,
+        "step": 0.1,
         "unit": "em",
         "label": "Letter Spacing",
         "default": 0
@@ -233,7 +233,7 @@
         "id": "h4_letter_spacing",
         "min": -0.1,
         "max": 0.5,
-        "step": 0.01,
+        "step": 0.1,
         "unit": "em",
         "label": "Letter Spacing",
         "default": 0
@@ -256,7 +256,7 @@
         "step": 0.1,
         "unit": "rem",
         "label": "Font Size",
-        "default": 1.25
+        "default": 1.3
       },
       {
         "type": "range",
@@ -273,7 +273,7 @@
         "id": "h5_letter_spacing",
         "min": -0.1,
         "max": 0.5,
-        "step": 0.01,
+        "step": 0.1,
         "unit": "em",
         "label": "Letter Spacing",
         "default": 0
@@ -313,7 +313,7 @@
         "id": "h6_letter_spacing",
         "min": -0.1,
         "max": 0.5,
-        "step": 0.01,
+        "step": 0.1,
         "unit": "em",
         "label": "Letter Spacing",
         "default": 0
@@ -353,7 +353,7 @@
         "id": "subheading_letter_spacing",
         "min": -0.1,
         "max": 0.5,
-        "step": 0.01,
+        "step": 0.1,
         "unit": "em",
         "label": "Letter Spacing",
         "default": 0
@@ -393,7 +393,7 @@
         "id": "body_letter_spacing",
         "min": -0.1,
         "max": 0.5,
-        "step": 0.01,
+        "step": 0.1,
         "unit": "em",
         "label": "Letter Spacing",
         "default": 0
@@ -433,7 +433,7 @@
         "id": "accent_letter_spacing",
         "min": -0.1,
         "max": 0.5,
-        "step": 0.01,
+        "step": 0.1,
         "unit": "em",
         "label": "Letter Spacing",
         "default": 0
