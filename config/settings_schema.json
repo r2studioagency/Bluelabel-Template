@@ -61,12 +61,11 @@
       {
         "type": "range",
         "id": "tag_line_height",
-        "min": 10,
-        "max": 50,
-        "step": 1,
-        "unit": "pt",
+        "min": 0.5,
+        "max": 3,
+        "step": 0.1,
         "label": "Line Height",
-        "default": 16
+        "default": 1.4
       },
       {
         "type": "range",
@@ -101,12 +100,11 @@
       {
         "type": "range",
         "id": "h1_line_height",
-        "min": 10,
-        "max": 50,
-        "step": 1,
-        "unit": "pt",
+        "min": 0.5,
+        "max": 3,
+        "step": 0.1,
         "label": "Line Height",
-        "default": 32
+        "default": 1.4
       },
       {
         "type": "range",
@@ -141,12 +139,11 @@
       {
         "type": "range",
         "id": "h2_line_height",
-        "min": 10,
-        "max": 50,
-        "step": 1,
-        "unit": "pt",
+        "min": 0.5,
+        "max": 3,
+        "step": 0.1,
         "label": "Line Height",
-        "default": 28
+        "default": 1.4
       },
       {
         "type": "range",
@@ -181,12 +178,11 @@
       {
         "type": "range",
         "id": "h3_line_height",
-        "min": 10,
-        "max": 50,
-        "step": 1,
-        "unit": "pt",
+        "min": 0.5,
+        "max": 3,
+        "step": 0.1,
         "label": "Line Height",
-        "default": 24
+        "default": 1.4
       },
       {
         "type": "range",
@@ -221,12 +217,11 @@
       {
         "type": "range",
         "id": "h4_line_height",
-        "min": 10,
-        "max": 50,
-        "step": 1,
-        "unit": "pt",
+        "min": 0.5,
+        "max": 3,
+        "step": 0.1,
         "label": "Line Height",
-        "default": 22
+        "default": 1.4
       },
       {
         "type": "range",
@@ -261,12 +256,11 @@
       {
         "type": "range",
         "id": "h5_line_height",
-        "min": 10,
-        "max": 50,
-        "step": 1,
-        "unit": "pt",
+        "min": 0.5,
+        "max": 3,
+        "step": 0.1,
         "label": "Line Height",
-        "default": 20
+        "default": 1.4
       },
       {
         "type": "range",
@@ -301,12 +295,11 @@
       {
         "type": "range",
         "id": "h6_line_height",
-        "min": 10,
-        "max": 50,
-        "step": 1,
-        "unit": "pt",
+        "min": 0.5,
+        "max": 3,
+        "step": 0.1,
         "label": "Line Height",
-        "default": 18
+        "default": 1.4
       },
       {
         "type": "range",
@@ -341,12 +334,11 @@
       {
         "type": "range",
         "id": "subheading_line_height",
-        "min": 10,
-        "max": 50,
-        "step": 1,
-        "unit": "pt",
+        "min": 0.5,
+        "max": 3,
+        "step": 0.1,
         "label": "Line Height",
-        "default": 20
+        "default": 1.4
       },
       {
         "type": "range",
@@ -381,12 +373,11 @@
       {
         "type": "range",
         "id": "body_line_height",
-        "min": 10,
-        "max": 50,
-        "step": 1,
-        "unit": "pt",
+        "min": 0.5,
+        "max": 3,
+        "step": 0.1,
         "label": "Line Height",
-        "default": 16
+        "default": 1.4
       },
       {
         "type": "range",
@@ -421,12 +412,11 @@
       {
         "type": "range",
         "id": "accent_line_height",
-        "min": 10,
-        "max": 50,
-        "step": 1,
-        "unit": "pt",
+        "min": 0.5,
+        "max": 3,
+        "step": 0.1,
         "label": "Line Height",
-        "default": 16
+        "default": 1.4
       },
       {
         "type": "range",
