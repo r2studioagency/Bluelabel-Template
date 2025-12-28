@@ -12,43 +12,437 @@
     "settings": [
       {
         "type": "header",
-        "content": "Headings"
+        "content": "Font-Auswahl"
       },
       {
         "type": "font_picker",
-        "id": "type_header_font",
+        "id": "type_tag_font",
         "default": "assistant_n4",
-        "label": "Heading fonts"
+        "label": "Tag Font"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_heading_font",
+        "default": "assistant_n4",
+        "label": "Heading Font"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_subheading_font",
+        "default": "assistant_n4",
+        "label": "Subheading Font"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_body_font",
+        "default": "assistant_n4",
+        "label": "Body Font"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_accent_font",
+        "default": "assistant_n4",
+        "label": "Accent Font"
+      },
+      {
+        "type": "header",
+        "content": "Tag"
       },
       {
         "type": "range",
-        "id": "heading_scale",
-        "min": 100,
-        "max": 150,
-        "step": 5,
-        "unit": "%",
-        "label": "Font size scale",
-        "default": 100
+        "id": "tag_font_size",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "unit": "rem",
+        "label": "Font Size",
+        "default": 1
+      },
+      {
+        "type": "range",
+        "id": "tag_line_height",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "pt",
+        "label": "Line Height",
+        "default": 16
+      },
+      {
+        "type": "range",
+        "id": "tag_letter_spacing",
+        "min": -0.1,
+        "max": 0.5,
+        "step": 0.01,
+        "unit": "em",
+        "label": "Letter Spacing",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "tag_uppercase",
+        "label": "Uppercase",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "H1"
+      },
+      {
+        "type": "range",
+        "id": "h1_font_size",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "unit": "rem",
+        "label": "Font Size",
+        "default": 2.5
+      },
+      {
+        "type": "range",
+        "id": "h1_line_height",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "pt",
+        "label": "Line Height",
+        "default": 32
+      },
+      {
+        "type": "range",
+        "id": "h1_letter_spacing",
+        "min": -0.1,
+        "max": 0.5,
+        "step": 0.01,
+        "unit": "em",
+        "label": "Letter Spacing",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "h1_uppercase",
+        "label": "Uppercase",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "H2"
+      },
+      {
+        "type": "range",
+        "id": "h2_font_size",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "unit": "rem",
+        "label": "Font Size",
+        "default": 2
+      },
+      {
+        "type": "range",
+        "id": "h2_line_height",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "pt",
+        "label": "Line Height",
+        "default": 28
+      },
+      {
+        "type": "range",
+        "id": "h2_letter_spacing",
+        "min": -0.1,
+        "max": 0.5,
+        "step": 0.01,
+        "unit": "em",
+        "label": "Letter Spacing",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "h2_uppercase",
+        "label": "Uppercase",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "H3"
+      },
+      {
+        "type": "range",
+        "id": "h3_font_size",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "unit": "rem",
+        "label": "Font Size",
+        "default": 1.75
+      },
+      {
+        "type": "range",
+        "id": "h3_line_height",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "pt",
+        "label": "Line Height",
+        "default": 24
+      },
+      {
+        "type": "range",
+        "id": "h3_letter_spacing",
+        "min": -0.1,
+        "max": 0.5,
+        "step": 0.01,
+        "unit": "em",
+        "label": "Letter Spacing",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "h3_uppercase",
+        "label": "Uppercase",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "H4"
+      },
+      {
+        "type": "range",
+        "id": "h4_font_size",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "unit": "rem",
+        "label": "Font Size",
+        "default": 1.5
+      },
+      {
+        "type": "range",
+        "id": "h4_line_height",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "pt",
+        "label": "Line Height",
+        "default": 22
+      },
+      {
+        "type": "range",
+        "id": "h4_letter_spacing",
+        "min": -0.1,
+        "max": 0.5,
+        "step": 0.01,
+        "unit": "em",
+        "label": "Letter Spacing",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "h4_uppercase",
+        "label": "Uppercase",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "H5"
+      },
+      {
+        "type": "range",
+        "id": "h5_font_size",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "unit": "rem",
+        "label": "Font Size",
+        "default": 1.25
+      },
+      {
+        "type": "range",
+        "id": "h5_line_height",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "pt",
+        "label": "Line Height",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "h5_letter_spacing",
+        "min": -0.1,
+        "max": 0.5,
+        "step": 0.01,
+        "unit": "em",
+        "label": "Letter Spacing",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "h5_uppercase",
+        "label": "Uppercase",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "H6"
+      },
+      {
+        "type": "range",
+        "id": "h6_font_size",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "unit": "rem",
+        "label": "Font Size",
+        "default": 1
+      },
+      {
+        "type": "range",
+        "id": "h6_line_height",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "pt",
+        "label": "Line Height",
+        "default": 18
+      },
+      {
+        "type": "range",
+        "id": "h6_letter_spacing",
+        "min": -0.1,
+        "max": 0.5,
+        "step": 0.01,
+        "unit": "em",
+        "label": "Letter Spacing",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "h6_uppercase",
+        "label": "Uppercase",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "Subheading"
+      },
+      {
+        "type": "range",
+        "id": "subheading_font_size",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "unit": "rem",
+        "label": "Font Size",
+        "default": 1.1
+      },
+      {
+        "type": "range",
+        "id": "subheading_line_height",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "pt",
+        "label": "Line Height",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "subheading_letter_spacing",
+        "min": -0.1,
+        "max": 0.5,
+        "step": 0.01,
+        "unit": "em",
+        "label": "Letter Spacing",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "subheading_uppercase",
+        "label": "Uppercase",
+        "default": false
       },
       {
         "type": "header",
         "content": "Body"
       },
       {
-        "type": "font_picker",
-        "id": "type_body_font",
-        "default": "assistant_n4",
-        "label": "Body font"
+        "type": "range",
+        "id": "body_font_size",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "unit": "rem",
+        "label": "Font Size",
+        "default": 1
       },
       {
         "type": "range",
-        "id": "body_scale",
-        "min": 100,
-        "max": 130,
-        "step": 5,
-        "unit": "%",
-        "label": "Font size scale",
-        "default": 100
+        "id": "body_line_height",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "pt",
+        "label": "Line Height",
+        "default": 16
+      },
+      {
+        "type": "range",
+        "id": "body_letter_spacing",
+        "min": -0.1,
+        "max": 0.5,
+        "step": 0.01,
+        "unit": "em",
+        "label": "Letter Spacing",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "body_uppercase",
+        "label": "Uppercase",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "Accent"
+      },
+      {
+        "type": "range",
+        "id": "accent_font_size",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "unit": "rem",
+        "label": "Font Size",
+        "default": 1
+      },
+      {
+        "type": "range",
+        "id": "accent_line_height",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "pt",
+        "label": "Line Height",
+        "default": 16
+      },
+      {
+        "type": "range",
+        "id": "accent_letter_spacing",
+        "min": -0.1,
+        "max": 0.5,
+        "step": 0.01,
+        "unit": "em",
+        "label": "Letter Spacing",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "accent_uppercase",
+        "label": "Uppercase",
+        "default": false
       }
     ]
   },
